@@ -1,7 +1,7 @@
 //slick_js_1
 $('.responsive_1').slick({
     dots: false,
-    infinite: false,
+    infinite: true,
     arrows: true,
     speed: 300,
     slidesToShow: 1,

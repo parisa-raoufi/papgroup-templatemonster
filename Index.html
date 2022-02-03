@@ -13,56 +13,56 @@
     <!--icon-->
     <link rel="stylesheet" href="./content/icon/fontawesome-free-5.15.4-web/css/all.min.css">
     <!--CSS_Mine-->
-    <link rel="stylesheet" href="./content/css/desktop/main.css">
+    <link rel="stylesheet" href="./content/scss/desktop/main.css">
     <title>Document</title>
 </head>
 
 <body>
     <!--header-->
-    <section>
+    <header>
         <!--part-1-->
-        <div class="container ">
-            <div class="row">
+        <div class=" header-part1 p-3  bg-dark text-white">
+            <div class="container">
+                <div class="row">
 
-                <div class="col-9 ">
-                    <div class="col-6 d-flex">
-                        <div class="col-4">
-                            <a href="#">
-                                SAFE & SECURED
-                            </a>
-                        </div>
-                        <div class="col-4">
-                            <a href="#">
-                                Easy Returns
-                            </a>
-                        </div>
-                        <div class="col-4">
-                            <a href="#">
-                                Customer Support
-                            </a>
+                    <div class="col-9 ">
+                        <div class="col-6 d-flex">
+                            <div class="col-4">
+                                <a href="#">
+                                    SAFE & SECURED
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#">
+                                    Easy Returns
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#">
+                                    Customer Support
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-3 d-flex">
-                    <div class="col-6">
-                        <a href="#">
-                            USD
-                        </a>
-                    </div>
-                    <div class="col-6">
-                        <a href="#">
-                            ENGLISH
-                        </a>
+                    <div class="col-3 d-flex">
+                        <div class="col-6">
+                            <a href="#">
+                                USD
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#">
+                                ENGLISH
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
         <!--part-1/-->
 
         <!--part-2-->
-        <div>
+        <div class=" header-part2 p-3 ">
             <div class="container">
                 <div class="row">
                     <div class="col-3">
@@ -72,20 +72,25 @@
 
                     </div>
                     <div class="col-6">
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-secondary" type="submit">Search</button>
+                        <form class="d-flex search-box">
+                            <input class="form-control rounded-start search-box___form " type="search"
+                                placeholder="Enter keywords to search... " aria-label="Search">
+                            <button class="btn btn-outline-secondary rounded-end search-box___btn p-2 px-5"
+                                type="submit">
+                                <i class="fas fa-search search-box__icon "></i>
+                            </button>
                         </form>
                     </div>
                     <div class="col-3">
                         <div class="row d-flex">
                             <div class="col-5">
-                                <span class="small">Login</span>
-                                <span class="fw-bold">REGISTER </span>
+                                <a class="d-block text-muted small mb-2">Login</a>
+                                <a class="d-block fw-bold">REGISTER </a>
                             </div>
                             <div class="col-7">
-                                <span class="text-muted">My Cart</span>
-                                <span class="fw-bold">CHECKOUT</span>
+                                <a class="d-block text-muted small">My Cart</a>
+                                <a class="d-inline fw-bold">CHECKOUT</a>
+                                <i class="fas fa-shopping-cart fw-bold shop-icon"></i>
                             </div>
                         </div>
                     </div>
@@ -96,63 +101,64 @@
         </div>
         <!--part-2/-->
 
+        <hr class="m-0">
+
         <!--part-3-->
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Collection</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                        <div class="col-4">
-                            <div class="col-3">
-                                <!-- <img src="./content/image/icon-image.png" alt=""> -->
-                            </div>
-                            <div class="col-9">
-                                <div>Call Us Now:
-                                    <span>0123-444-666</span>
-                                </div>
-                                <div>Email
-                                    <span> support@example.com </span>
+        <div class="header-part3 p-3">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> -->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-black">
+                                <li class="nav-item ">
+                                    <a class="nav-link active " aria-current="page" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link2" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Collection</a>
+                                </li>
+                                <li class="nav-item text-black">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                            <div class="">
+                                <div class="col-12 fw-bold small ">
+                                    <div>Call Us Now:
+                                        <span class="text-danger ">0123-444-666</span>
+                                    </div>
+                                    <div>Email
+                                        <span class="text-black-50"> support@example.com </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
-
         <!--part-3/-->
-    </section>
+    </header>
     <!--header/-->
+
     <!-- btn_to_top -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up "></i></button>
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up "></i></button> -->
     <!-- btn_to_top -->
 
     <!--slider_1-->
@@ -485,66 +491,66 @@
 
     <!-- WHAT OUR CLIENTS SAY? -->
     <section class=" p-5" style="background-image: url(./content/image/bg-clients.jpg);">
-        <div class="text-center p-5 text-light"  style="background-color:  rgba(0, 0, 0, 0.6);"  >
-            <div >
+        <div class="text-center p-5 text-light" style="background-color:  rgba(0, 0, 0, 0.6);">
+            <div>
                 <h3>WHAT OUR CLIENTS SAY?</h3>
-            <div class="responsive_3  ">
+                <div class="responsive_3  ">
 
-                <div>
-                    <p class="">Sed do eiusmod tempor, lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit
-                        <br>
-                         Ut enim ad minim veniam, incididunt ut laboreet dolore magna aliqua. Quis
-                        nostrud exercitation ullamco
-                        <br> 
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p class="">Anna Johanson</p>
-                    <P>Developer - Our Company</P>
+                    <div>
+                        <p class="">Sed do eiusmod tempor, lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit
+                            <br>
+                            Ut enim ad minim veniam, incididunt ut laboreet dolore magna aliqua. Quis
+                            nostrud exercitation ullamco
+                            <br>
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p class="">Anna Johanson</p>
+                        <P>Developer - Our Company</P>
+                    </div>
+
+                    <div>
+                        <p class="">Sed do eiusmod tempor, lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit
+                            <br>
+                            Ut enim ad minim veniam, incididunt ut laboreet dolore magna aliqua. Quis
+                            nostrud exercitation ullamco
+                            <br>
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p class="">Anna Johanson</p>
+                        <P>Developer - Our Company</P>
+                    </div>
+
+                    <div>
+                        <p class="">Sed do eiusmod tempor, lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit
+                            <br>
+                            Ut enim ad minim veniam, incididunt ut laboreet dolore magna aliqua. Quis
+                            nostrud exercitation ullamco
+                            <br>
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p class="">Anna Johanson</p>
+                        <P>Developer - Our Company</P>
+                    </div>
+
+                    <div>
+                        <p class="">Sed do eiusmod tempor, lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit
+                            <br>
+                            Ut enim ad minim veniam, incididunt ut laboreet dolore magna aliqua. Quis
+                            nostrud exercitation ullamco
+                            <br>
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p class="">Anna Johanson</p>
+                        <P>Developer - Our Company</P>
+                    </div>
                 </div>
 
-                <div>
-                    <p class="">Sed do eiusmod tempor, lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit
-                        <br>
-                         Ut enim ad minim veniam, incididunt ut laboreet dolore magna aliqua. Quis
-                        nostrud exercitation ullamco
-                        <br> 
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p class="">Anna Johanson</p>
-                    <P>Developer - Our Company</P>
-                </div>
-                
-                <div>
-                    <p class="">Sed do eiusmod tempor, lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit
-                        <br>
-                         Ut enim ad minim veniam, incididunt ut laboreet dolore magna aliqua. Quis
-                        nostrud exercitation ullamco
-                        <br> 
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p class="">Anna Johanson</p>
-                    <P>Developer - Our Company</P>
-                </div>
-                
-                <div>
-                    <p class="">Sed do eiusmod tempor, lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit
-                        <br>
-                         Ut enim ad minim veniam, incididunt ut laboreet dolore magna aliqua. Quis
-                        nostrud exercitation ullamco
-                        <br> 
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p class="">Anna Johanson</p>
-                    <P>Developer - Our Company</P>
-                </div>
             </div>
 
-            </div>
-            
 
         </div>
     </section>

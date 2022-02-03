@@ -1,0 +1,68 @@
+header {
+    @import 'variables';
+
+    //part_1
+    .header-part1 {
+        a {
+            color: white;
+            text-decoration: none;
+
+        }
+    }
+
+    .header-part2 {
+        .search-box___form {
+            background-color: $light-shade-gray;
+            border: 0px;
+            border-radius: 0px;
+        }
+
+        .search-box___btn {
+            background-color: $light-balck;
+            border: 0px;
+            border-radius: 0px;
+
+        }
+
+        .search-box__icon {
+            color: white;
+            font-size: 19px;
+        }
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            color: $text-red !important;
+        }
+
+        .shop-icon {
+            font-size: 1.5rem;
+        }
+
+    }
+
+    .header-part3 {
+        .nav-link {
+            color: black !important;
+            font-size: 17.5px;
+            font-weight: bold;
+
+        }
+
+        .nav-link:hover {
+            color: $text-red !important;
+        }
+
+        .nav-link:active{
+            color: red !important;
+        }
+        a{
+            color:pink;
+        }
+
+
+    }
+
+}
