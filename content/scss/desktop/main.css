@@ -107,4 +107,46 @@ header .header-part3 a {
 a {
   text-decoration: none;
 }
+
+footer .part_1 .footer-icons a {
+  color: gray;
+}
+
+footer .part_1 .footer-icons a:hover {
+  color: red;
+}
+
+footer .part_1 .footer-items a {
+  color: gray;
+}
+
+footer .part_1 .footer-items a:hover {
+  color: red;
+}
+
+footer .part_2 .search-box___form {
+  background-color: #eeeeee;
+  border: 0px;
+  border-radius: 5px;
+}
+
+footer .part_2 .search-box___btn {
+  background-color: #333333;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+}
+
+footer .part_2 .search-box___btn:hover {
+  background-color: #ed1c24;
+}
+
+footer .part_2 .part_2__text-part .text1 {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
+
+footer .part_3 h6 {
+  font-size: 1.25rem;
+}
 /*# sourceMappingURL=main.css.map */
