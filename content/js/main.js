@@ -73,11 +73,13 @@ $('.responsive_2').slick({
   // ]
 });
 
-//slick_js_3
-$('.responsive_3').slick({
+//slick_js_8
+$('.responsive_8').slick({
   dots: true,
-  arrows: true,
-  infinite: false,
+  arrows: false,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 1500,
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,

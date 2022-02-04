@@ -149,4 +149,31 @@ footer .part_2 .part_2__text-part .text1 {
 footer .part_3 h6 {
   font-size: 1.25rem;
 }
+
+.slider_8 {
+  background-image: url("../../image/bg-clients.jpg");
+}
+
+.slider_8 .shadow-box {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.slider_8 .slick-dots li button:before {
+  font-size: 12px;
+  color: white;
+  opacity: 0.75;
+}
+
+.slider_8 .slick-dots li.slick-active button:before {
+  color: #ed1c24;
+  opacity: 1;
+}
+
+.slider_8 .slider8_header {
+  font-size: 1.5rem;
+}
+
+.slider_8 .slider8_text {
+  line-height: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
