@@ -526,4 +526,42 @@ footer .part_3 h6 {
 .featured-prouducts .FEATUREDPRODUCT-Sposition__icon-group a {
   color: white;
 }
+
+.shopdeals h3 {
+  font-size: 2rem;
+}
+
+.shopdeals .shopdeals__text {
+  line-height: 1.25rem;
+}
+
+.shopdeals .text-slider-3 {
+  opacity: 0.75;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.shopdeals .responsive_3:hover .slick-prev:before, .shopdeals .responsive_3:hover .slick-next:before {
+  font-size: 3rem;
+  line-height: 1;
+  color: gray;
+}
+
+.slider_2 .text_part {
+  font-size: 1.5rem;
+}
+
+.slider_2 .image_part:hover {
+  opacity: 0.85;
+}
+
+.slider_2 .slick-next:before {
+  position: absolute;
+  right: 42px;
+  color: gray;
+  font-size: 42px;
+}
 /*# sourceMappingURL=main.css.map */
