@@ -1,7 +1,7 @@
 //slick_js_1
 $('.responsive_1').slick({
   dots: false,
-  infinite: true,
+  infinite: false,
   arrows: true,
   speed: 300,
   slidesToShow: 1,
@@ -41,6 +41,7 @@ $('.responsive_1').slick({
 $('.responsive_2').slick({
   dots: false,
   infinite: false,
+  arrows:false,
   speed: 300,
   slidesToShow: 5,
   slidesToScroll: 5,
@@ -73,13 +74,24 @@ $('.responsive_2').slick({
   // ]
 });
 
+
+//slick_js_7
+$('.responsive_7').slick({
+  dots: false,
+  arrows: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 6,
+  slidesToScroll: 1
+});
+
 //slick_js_8
 $('.responsive_8').slick({
   dots: true,
   arrows: false,
   infinite: true,
   autoplay: true,
-  autoplaySpeed: 1500,
+  autoplaySpeed: 1000,
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,

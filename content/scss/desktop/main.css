@@ -201,4 +201,45 @@ footer .part_3 h6 {
 .products .products__img a:hover img {
   border: 1px solid #ed1c24 !important;
 }
+
+.labels .slick-prev.slick-disabled:before,
+.labels .slick-next.slick-disabled:before {
+  opacity: 0;
+}
+
+.labels .Items {
+  z-index: -3;
+}
+
+.labels .Items img {
+  opacity: 0.5;
+}
+
+.labels .slick-prev {
+  left: -2%;
+  top: 42%;
+}
+
+.labels .slick-next {
+  right: 0%;
+  top: 42%;
+}
+
+.labels .responsive_7:hover .slick-prev.slick-disabled:before,
+.labels .responsive_7:hover .slick-next.slick-disabled:before {
+  opacity: 0.5;
+  color: #dad9d9;
+  font-size: 3rem;
+  z-index: 15;
+}
+
+.labels .responsive_7:hover .slick-prev.slick-disabled:before:hover,
+.labels .responsive_7:hover .slick-next.slick-disabled:before:hover {
+  color: red;
+  background-color: pink;
+}
+
+.labels .Items:hover img {
+  opacity: 1;
+}
 /*# sourceMappingURL=main.css.map */
