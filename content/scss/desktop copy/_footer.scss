@@ -1,0 +1,73 @@
+@import 'variables';
+
+footer {
+    .part_1 {
+        .footer-icons {
+            a {
+                color: gray;
+
+                &:hover {
+                    color: red;  
+
+                }
+            }
+        }
+
+        .footer-items{
+            a {
+                color: gray;
+
+                &:hover {
+                    color: red;
+                    // text-decoration: ;
+                }
+            }
+
+        }
+
+        a:hover {}
+
+    }
+
+    .part_2 {
+
+        .search-box___form {
+            background-color: $light-shade-gray;
+            border: 0px;
+            border-radius: 5px;
+        }
+
+        .search-box___btn {
+            background-color: $light-balck;
+            border: 0px;
+            border-radius: 5px;
+            color: white;
+
+            &:hover {
+                background-color: $text-red;
+            }
+
+        }
+
+        .part_2__text-part {
+            .text1 {
+                font-size: 1.25rem;
+                line-height: 2.5rem;
+            }
+
+
+        }
+
+    }
+
+    .part_3 {
+        h6 {
+            font-size: 1.25rem;
+        }
+
+    }
+
+
+
+
+}

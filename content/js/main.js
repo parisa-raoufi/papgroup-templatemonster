@@ -74,6 +74,35 @@ $('.responsive_2').slick({
   // ]
 });
 
+//az-nav-for
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+
+$('.slider-nav').slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: false,
+  arrows: true,
+  centerMode: false,
+  focusOnSelect: true
+});
+
+
+//slick_js_6
+$('.responsive_6').slick({
+  dots: false,
+  arrows: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1
+});
 
 //slick_js_7
 $('.responsive_7').slick({

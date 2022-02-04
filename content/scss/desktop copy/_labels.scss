@@ -1,0 +1,55 @@
+@import 'variables';
+
+.labels {
+
+    .slick-prev.slick-disabled:before,
+    .slick-next.slick-disabled:before {
+        opacity: 0;
+
+
+    }
+
+    .Items {
+        img {
+            opacity: 0.5;
+        }
+
+        z-index: -3;
+    }
+
+    .slick-prev {
+        left: -2%;
+        top: 42%;
+    }
+
+    .slick-next {
+        right: 0%;
+        top: 42%;
+    }
+
+
+    .responsive_7:hover {
+
+        .slick-prev.slick-disabled:before,
+        .slick-next.slick-disabled:before {
+            opacity: 0.5;
+            color: #dad9d9;
+            font-size: 3rem;
+            z-index: 15;
+
+            &:hover {
+                color: red;
+                background-color: pink;
+            }
+        }
+    }
+
+    .Items:hover {
+        img {
+            opacity: 1;
+        }
+
+    }
+
+
+}
