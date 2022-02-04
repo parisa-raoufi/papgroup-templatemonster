@@ -1,0 +1,41 @@
+@import 'variables';
+
+.products {
+    .products__header {
+        font-size: 20px;
+
+    }
+
+    .products__body {
+        line-height: 2.05rem;
+
+        a {
+            color: black !important;
+
+            &:hover {
+                color: $text-red !important;
+
+            }
+        }
+
+        .products__cost {
+            color: $text-red !important;
+            font-size: 1.35rem;
+        }
+
+    }
+
+    .products__img {
+        a {
+            img {
+                // border: 1px solid  !important;
+            }
+
+            &:hover{
+                img{
+                    border: 1px solid $text-red !important;
+                }
+            }
+        }
+    }
+}

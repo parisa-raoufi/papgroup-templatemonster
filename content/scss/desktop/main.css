@@ -176,4 +176,29 @@ footer .part_3 h6 {
 .slider_8 .slider8_text {
   line-height: 2rem;
 }
+
+.products .products__header {
+  font-size: 20px;
+}
+
+.products .products__body {
+  line-height: 2.05rem;
+}
+
+.products .products__body a {
+  color: black !important;
+}
+
+.products .products__body a:hover {
+  color: #ed1c24 !important;
+}
+
+.products .products__body .products__cost {
+  color: #ed1c24 !important;
+  font-size: 1.35rem;
+}
+
+.products .products__img a:hover img {
+  border: 1px solid #ed1c24 !important;
+}
 /*# sourceMappingURL=main.css.map */
