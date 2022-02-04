@@ -355,7 +355,7 @@ footer .part_3 h6 {
 
 .dealsoftheweek .item-nav img {
   width: 15rem !important;
-  border: red solid 1px;
+  border: #ed1c24 solid 1px;
 }
 
 .dealsoftheweek .slider-nav:hover .slick-prev:before,
@@ -425,5 +425,105 @@ footer .part_3 h6 {
   background-color: #ed1c24;
   color: white;
   border: #ed1c24 1px solid;
+}
+
+.featured-prouducts .header {
+  font-size: 2rem;
+}
+
+.featured-prouducts .nav-link {
+  color: black;
+}
+
+.featured-prouducts .nav-link:hover {
+  color: white;
+  background-color: black;
+}
+
+.featured-prouducts .nav-pills .nav-link.active,
+.featured-prouducts .nav-pills .show > .nav-link {
+  background-color: black !important;
+}
+
+.featured-prouducts .icon-new {
+  height: 3rem;
+  width: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* align-content: center; */
+  background-color: #1cc48f;
+  font-size: 0.9rem;
+  border: #1cc48f;
+}
+
+.featured-prouducts .slick-prev:before,
+.featured-prouducts .slick-next:before {
+  font-size: 3rem;
+  color: gray;
+  opacity: 0;
+}
+
+.featured-prouducts .responsive_4:hover .slick-prev:before,
+.featured-prouducts .responsive_4:hover .slick-next:before {
+  opacity: 0.75;
+}
+
+.featured-prouducts .products__body {
+  line-height: 2.05rem;
+}
+
+.featured-prouducts .products__body a {
+  color: black !important;
+}
+
+.featured-prouducts .products__body a:hover {
+  color: #ed1c24 !important;
+}
+
+.featured-prouducts .products__body .products__cost {
+  color: #ed1c24 !important;
+  font-size: 1.35rem;
+}
+
+.featured-prouducts .products__btn {
+  color: #444;
+  border: 1px solid #e5e5e5 !important;
+}
+
+.featured-prouducts .icon-item {
+  opacity: 0;
+}
+
+.featured-prouducts .card:hover .products__btn {
+  color: white;
+  background-color: #ed1c24;
+  border: 1px solid #ed1c24 !important;
+}
+
+.featured-prouducts .card:hover img {
+  opacity: 0.5;
+}
+
+.featured-prouducts .card:hover .icon-item {
+  background-color: #444;
+  opacity: 0.85;
+}
+
+.featured-prouducts .card:hover .icon-item:hover {
+  background-color: #ed1c24;
+  opacity: 1;
+}
+
+.featured-prouducts .FEATUREDPRODUCT-Sposition__icon-group {
+  top: 30%;
+  left: 25%;
+}
+
+.featured-prouducts .FEATUREDPRODUCT-Sposition__icon-group a {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

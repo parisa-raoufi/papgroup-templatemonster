@@ -94,6 +94,28 @@ $('.slider-nav').slick({
 });
 
 
+
+//slick_js_3
+$('.responsive_').slick({
+  dots: false,
+  arrows: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1
+});
+
+//slick_js_4
+$('.responsive_4').slick({
+  dots: false,
+  arrows: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1
+});
+
+
 //slick_js_6
 $('.responsive_6').slick({
   dots: false,
