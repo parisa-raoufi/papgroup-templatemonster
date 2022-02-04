@@ -564,4 +564,52 @@ footer .part_3 h6 {
   color: gray;
   font-size: 42px;
 }
+
+.BOXES-6 {
+  background-image: url(../../image/bg-post.jpg);
+}
+
+.BOXES-6 .date_part {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  opacity: 0.75;
+}
+
+.BOXES-6 .header_text {
+  color: white;
+  font-size: 1.20rem;
+  line-height: 1.25rem;
+}
+
+.BOXES-6 .header_text:hover {
+  color: #ed1c24;
+}
+
+.BOXES-6 .text-linked {
+  color: gray;
+}
+
+.BOXES-6 .text-linked a {
+  color: gray;
+}
+
+.BOXES-6 .text-linked a:hover {
+  color: white;
+}
+
+.BOXES-6 .text-midlle {
+  line-height: 1.25rem;
+}
+
+.BOXES-6 .bottom_text {
+  color: #ed1c24;
+}
+
+.BOXES-6 .text-part {
+  background-color: #171716;
+}
 /*# sourceMappingURL=main.css.map */
