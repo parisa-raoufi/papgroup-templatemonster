@@ -2,18 +2,122 @@
 
 .dealsoftheweek {
 
+    .slick-prev:before,
+    .slick-next:before {
+        opacity: 0;
+    }
+
+
+
+    .sss {
+        width: 13rem !important;
+        border: $text-red solid 1px !important;
+    }
+
+
     .item-for {}
+
+    .text-1 {
+        color: $text-red;
+        font-size: 30px;
+    }
+
+    .rounded-circle {
+        background-color: $text-red;
+
+    }
 
     .item-nav {
         img {
-            height: 13rem !important;
-            border: black solid 1px;
+            width: 15rem !important;
+            border: red solid 1px;
+        }
+    }
+
+    .slider-nav:hover {
+
+        .slick-prev:before,
+        .slick-next:before {
+            font-size: 45px;
+            line-height: 2rem;
+            color: gray;
+            opacity: 0.75;
+
+            button:hover {
+
+                color: $text-red;
+            }
+
+            .slick-arrow:hover {}
+        }
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: content-box !important;
+    }
+
+
+    .cost-after {
+        color: $text-red;
+        font-size: 1.75rem;
+    }
+
+    .cost-before {
+        font-size: 1.35rem;
+    }
+
+
+    .text-title {
+        font-size: 1.75rem;
+
+    }
+
+    .text-body_top {
+        a {
+            font-size: 1.25rem;
+            color: black;
+
+            &:hover {
+                color: $text-red;
+            }
         }
 
+    }
+
+    .text-midlle {
+        line-height: 1.75rem;
+    }
+
+    .btn-item {
+        color: white;
+        background-color: $text-red;
+        border: $text-red 1px solid;
+
+        &:hover {
+            background-color: #c61017;
+            border: #c61017 1px solid;
+
+        }
 
     }
 
 
+    .icon-item {
+        background-color: white;
+        color: black;
+        border: black 1px solid;
+
+        &:hover {
+            background-color: $text-red;
+            color: white;
+            border: $text-red 1px solid;
+
+        }
+
+
+    }
 
 
 

@@ -334,8 +334,96 @@ footer .part_3 h6 {
   opacity: 0.75;
 }
 
+.dealsoftheweek .slick-prev:before,
+.dealsoftheweek .slick-next:before {
+  opacity: 0;
+}
+
+.dealsoftheweek .sss {
+  width: 13rem !important;
+  border: #ed1c24 solid 1px !important;
+}
+
+.dealsoftheweek .text-1 {
+  color: #ed1c24;
+  font-size: 30px;
+}
+
+.dealsoftheweek .rounded-circle {
+  background-color: #ed1c24;
+}
+
 .dealsoftheweek .item-nav img {
-  height: 13rem !important;
-  border: black solid 1px;
+  width: 15rem !important;
+  border: red solid 1px;
+}
+
+.dealsoftheweek .slider-nav:hover .slick-prev:before,
+.dealsoftheweek .slider-nav:hover .slick-next:before {
+  font-size: 45px;
+  line-height: 2rem;
+  color: gray;
+  opacity: 0.75;
+}
+
+.dealsoftheweek .slider-nav:hover .slick-prev:before button:hover,
+.dealsoftheweek .slider-nav:hover .slick-next:before button:hover {
+  color: #ed1c24;
+}
+
+.dealsoftheweek *,
+.dealsoftheweek ::after,
+.dealsoftheweek ::before {
+  -webkit-box-sizing: content-box !important;
+          box-sizing: content-box !important;
+}
+
+.dealsoftheweek .cost-after {
+  color: #ed1c24;
+  font-size: 1.75rem;
+}
+
+.dealsoftheweek .cost-before {
+  font-size: 1.35rem;
+}
+
+.dealsoftheweek .text-title {
+  font-size: 1.75rem;
+}
+
+.dealsoftheweek .text-body_top a {
+  font-size: 1.25rem;
+  color: black;
+}
+
+.dealsoftheweek .text-body_top a:hover {
+  color: #ed1c24;
+}
+
+.dealsoftheweek .text-midlle {
+  line-height: 1.75rem;
+}
+
+.dealsoftheweek .btn-item {
+  color: white;
+  background-color: #ed1c24;
+  border: #ed1c24 1px solid;
+}
+
+.dealsoftheweek .btn-item:hover {
+  background-color: #c61017;
+  border: #c61017 1px solid;
+}
+
+.dealsoftheweek .icon-item {
+  background-color: white;
+  color: black;
+  border: black 1px solid;
+}
+
+.dealsoftheweek .icon-item:hover {
+  background-color: #ed1c24;
+  color: white;
+  border: #ed1c24 1px solid;
 }
 /*# sourceMappingURL=main.css.map */
