@@ -108,6 +108,15 @@ a {
   text-decoration: none;
 }
 
+.slider_1 .slick-prev, .slider_1 .slick-next {
+  z-index: 3;
+  margin: 3rem !important;
+}
+
+.slider_1 .slick-prev:before, .slider_1 .slick-next:before {
+  color: gray;
+}
+
 footer .part_1 .footer-icons a {
   color: gray;
 }
@@ -550,19 +559,13 @@ footer .part_3 h6 {
   color: gray;
 }
 
-.slider_2 .text_part {
-  font-size: 1.5rem;
+.slider_2 .slick-prev, .slider_2 .slick-next {
+  margin: 0 4rem;
+  z-index: 3;
 }
 
-.slider_2 .image_part:hover {
-  opacity: 0.85;
-}
-
-.slider_2 .slick-next:before {
-  position: absolute;
-  right: 42px;
+.slider_2 .slick-prev:before, .slider_2 .slick-next:before {
   color: gray;
-  font-size: 42px;
 }
 
 .BOXES-6 {

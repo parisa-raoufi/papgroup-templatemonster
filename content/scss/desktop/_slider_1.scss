@@ -1,8 +1,13 @@
 @import 'variables';
 
 .slider_1{
+
+    .slick-prev, .slick-next{
+        z-index: 3;
+        margin: 3rem !important;
+    }
     
-
-
-
+    .slick-prev:before, .slick-next:before{
+        color:gray;
+    }
 }

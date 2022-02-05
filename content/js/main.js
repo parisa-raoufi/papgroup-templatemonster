@@ -37,6 +37,49 @@ $('.responsive_1').slick({
   // ]
 });
 
+
+
+//slick_js_1
+$('.responsive_60').slick({
+  dots: false,
+  infinite: false,
+  arrows:true,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplay: false,
+  autoplaySpeed: 1500,
+  // responsive: [{
+  //     breakpoint: 1024,
+  //     settings: {
+  //       slidesToShow: 1,
+  //       slidesToScroll: 1,
+  //       infinite: true,
+  //       dots: true
+  //     }
+  //   },
+  //   {
+  //     breakpoint: 600,
+  //     settings: {
+  //       slidesToShow: 1,
+  //       slidesToScroll: 2
+  //     }
+  //   },
+  //   {
+  //     breakpoint: 480,
+  //     settings: {
+  //       slidesToShow: 1,
+  //       slidesToScroll: 1
+  //     }
+  //   }
+  //   // You can unslick at a given breakpoint now by adding:
+  //   // settings: "unslick"
+  //   // instead of a settings object
+  // ]
+});
+
+
+
 //slick_js_2
 $('.responsive_2').slick({
   dots: false,
