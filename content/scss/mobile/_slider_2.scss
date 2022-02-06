@@ -1,0 +1,12 @@
+.slider_2 {
+
+    .slick-prev, .slick-next{
+        margin: 0 4rem;
+        z-index: 3;
+    }
+
+
+    .slick-prev:before, .slick-next:before{
+        color:gray;
+    }
+}

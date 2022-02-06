@@ -39,7 +39,7 @@ $('.responsive_1').slick({
 
 
 
-//slick_js_1
+//slick_js_2
 $('.responsive_60').slick({
   dots: false,
   infinite: false,
@@ -49,33 +49,34 @@ $('.responsive_60').slick({
   slidesToScroll: 1,
   autoplay: false,
   autoplaySpeed: 1500,
-  // responsive: [{
-  //     breakpoint: 1024,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       slidesToScroll: 1,
-  //       infinite: true,
-  //       dots: true
-  //     }
-  //   },
-  //   {
-  //     breakpoint: 600,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       slidesToScroll: 2
-  //     }
-  //   },
-  //   {
-  //     breakpoint: 480,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       slidesToScroll: 1
-  //     }
-  //   }
-  //   // You can unslick at a given breakpoint now by adding:
-  //   // settings: "unslick"
-  //   // instead of a settings object
-  // ]
+  responsive: [{
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      infinite: true,
+      dots: true
+    }
+  },
+  {
+    breakpoint: 992,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 1
+    }
+  },
+
+  {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }
+  // You can unslick at a given breakpoint now by adding:
+  // settings: "unslick"
+  // instead of a settings object
+]
 });
 
 
@@ -133,7 +134,35 @@ $('.slider-nav').slick({
   dots: false,
   arrows: true,
   centerMode: false,
-  focusOnSelect: true
+  focusOnSelect: true,
+  responsive: [{
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      infinite: true,
+      dots: true
+    }
+  },
+  {
+    breakpoint: 992,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 1
+    }
+  },
+
+  {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 1
+    }
+  }
+  // You can unslick at a given breakpoint now by adding:
+  // settings: "unslick"
+  // instead of a settings object
+]
 });
 
 
@@ -154,7 +183,35 @@ $('.responsive_3').slick({
   infinite: false,
   speed: 300,
   slidesToShow: 3,
-  slidesToScroll: 1
+  slidesToScroll: 1,
+  responsive: [{
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      infinite: true,
+      dots: true
+    }
+  },
+  {
+    breakpoint: 992,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 1
+    }
+  },
+
+  {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }
+  // You can unslick at a given breakpoint now by adding:
+  // settings: "unslick"
+  // instead of a settings object
+]
 });
 
 
@@ -165,7 +222,35 @@ $('.responsive_4').slick({
   infinite: false,
   speed: 300,
   slidesToShow: 4,
-  slidesToScroll: 1
+  slidesToScroll: 1,
+  responsive: [{
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      infinite: true,
+      dots: true
+    }
+  },
+  {
+    breakpoint: 992,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 1
+    }
+  },
+
+  {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }
+  // You can unslick at a given breakpoint now by adding:
+  // settings: "unslick"
+  // instead of a settings object
+]
 });
 
 
@@ -176,7 +261,35 @@ $('.responsive_6').slick({
   infinite: false,
   speed: 300,
   slidesToShow: 4,
-  slidesToScroll: 1
+  slidesToScroll: 1,
+  responsive: [{
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      infinite: true,
+      dots: true
+    }
+  },
+  {
+    breakpoint: 992,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 1
+    }
+  },
+
+  {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }
+  // You can unslick at a given breakpoint now by adding:
+  // settings: "unslick"
+  // instead of a settings object
+]
 });
 
 //slick_js_7
@@ -186,7 +299,35 @@ $('.responsive_7').slick({
   infinite: false,
   speed: 300,
   slidesToShow: 6,
-  slidesToScroll: 1
+  slidesToScroll: 1,
+  responsive: [{
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 1
+      }
+    },
+
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 });
 
 //slick_js_8
@@ -198,34 +339,34 @@ $('.responsive_8').slick({
   autoplaySpeed: 1000,
   speed: 300,
   slidesToShow: 1,
-  slidesToScroll: 1,
-  responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
+  slidesToScroll: 1
+  // responsive: [{
+  //     breakpoint: 1024,
+  //     settings: {
+  //       slidesToShow: 3,
+  //       slidesToScroll: 3,
+  //       infinite: true,
+  //       dots: true
+  //     }
+  //   },
+  //   {
+  //     breakpoint: 600,
+  //     settings: {
+  //       slidesToShow: 2,
+  //       slidesToScroll: 2
+  //     }
+  //   },
+  //   {
+  //     breakpoint: 480,
+  //     settings: {
+  //       slidesToShow: 1,
+  //       slidesToScroll: 1
+  //     }
+  //   }
+  //   // You can unslick at a given breakpoint now by adding:
+  //   // settings: "unslick"
+  //   // instead of a settings object
+  // ]
 });
 
 
