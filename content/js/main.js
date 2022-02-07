@@ -37,8 +37,6 @@ $('.responsive_1').slick({
   // ]
 });
 
-
-
 //slick_js_2
 $('.responsive_60').slick({
   dots: false,
@@ -78,8 +76,6 @@ $('.responsive_60').slick({
   // instead of a settings object
 ]
 });
-
-
 
 //slick_js_2
 $('.responsive_2').slick({
@@ -164,6 +160,10 @@ $('.slider-nav').slick({
   // instead of a settings object
 ]
 });
+
+
+
+
 
 
 //slick_js_21
@@ -252,6 +252,32 @@ $('.responsive_4').slick({
   // instead of a settings object
 ]
 });
+
+
+
+// $('.responsive_4').slick("slickSetOption", "draggable", true, true);  
+// $('.responsive_4').resize();
+// $('.responsive_4').slick('setPosition').slick();
+// $('.responsive_4').slick('destroy').slick();
+// $('.responsive_4').slick('unslick').slick();
+// $('.responsive_4').slick('unslick').slick('reinit').slick();
+// $('.responsive_4').on('init', function(event, slick){
+//   console.log("initialised")
+//   $('.slider-class').slick()
+// });
+// $('.responsive_4').slick("refresh");
+// target.fadeIn("200", function() {
+//   $('.responsive_4').slick("setPosition", 0);
+// });
+
+// $('.your-element').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+//   console.log(nextSlide);
+// });
+
+
+
+
+
 
 
 //slick_js_6
@@ -393,3 +419,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 //btn_to_top
+
+
+

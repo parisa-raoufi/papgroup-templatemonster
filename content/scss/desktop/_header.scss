@@ -41,6 +41,7 @@ header {
     }
 
     .header-part3 {
+
         .nav-link {
             color: black !important;
             font-size: 17.5px;
@@ -62,4 +63,8 @@ header {
 
     }
 
+}
+
+.menu-wrap{
+    display: none;
 }

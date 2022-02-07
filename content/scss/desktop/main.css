@@ -87,6 +87,9 @@
   header .header-part3 a {
     color: pink;
   }
+  .menu-wrap {
+    display: none;
+  }
   a {
     text-decoration: none;
   }

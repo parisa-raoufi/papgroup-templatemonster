@@ -47,12 +47,12 @@
                     </div>
                     <div class="col-9 d-block d-lg-none "></div>
                     <div class="col-3 d-flex justify-content-end align-items-center">
-                        <div class="col-6 text-end">
+                        <div class="col-6 text-end px-2">
                             <a href="#">
                                 USD
                             </a>
                         </div>
-                        <div class="col-6 text-end">
+                        <div class="col-6 text-end px-2">
                             <a href="#">
                                 ENGLISH
                             </a>
@@ -83,7 +83,7 @@
                             </button>
                         </form>
                     </div>
-                    <div class="col-md-6 col-lg-3 d-flex justify-content-end  py-2 ">
+                    <div class="col-md-6 col-lg-3 d-flex justify-content-end  d-none d-lg-block py-2 ">
                         <div class="row d-flex">
                             <div class="col-5">
                                 <a class="d-block text-muted small mb-2">Login</a>
@@ -104,7 +104,7 @@
         <hr class="m-0">
 
         <!--part-3-->
-        <div class="header-part3 p-2 bg-white shadow sticky-top">
+        <div class="header-part3 p-2 bg-white shadow sticky-top d-none d-lg-block">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light ">
                     <div class="container-fluid">
@@ -161,6 +161,29 @@
     <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up "></i></button> -->
     <!-- btn_to_top -->
 
+    <!-- hamburger menu -->
+    <section class="ham-menu d-block d-lg-none">
+        <input type="checkbox" id="openSideMenu" class="openSideMenu">
+    <label for="openSideMenu" class="menuIconToggle">
+        <div class="hamb-line dia part-1"></div>
+        <div class="hamb-line hor"></div>
+        <div class="hamb-line dia part-2"></div>
+    </label>
+    <nav class="m-0">
+        <ul>
+            <li><a href="#" class="">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    </section>
+    <!-- hamburger menu -->
+
+
     <!--slider_1-->
     <section class="slider_1">
         <div class="responsive_1">
@@ -186,41 +209,41 @@
                 <div class="responsive_60 ">
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="px-3">
-                        <img src="./content/image/item-1 (1).jpg" alt="#" class="w-100">
-                        <div class="fw-bold text-center text_part mt-2 text-black ">Sofa & chairs</div>
-                    </div>
-                    </div>
-                    <div class="d-flex justify-content-center align-items-center">
-                        <div  class="px-3">
-                        <img src="./content/image/item-2.jpg" alt="#"  class="w-100">
-                        <div class="fw-bold text-center text_part mt-2 text-black ">Furniture & Decor</div>
-                    </div>
+                            <img src="./content/image/item-1 (1).jpg" alt="#" class="w-100">
+                            <div class="fw-bold text-center text_part mt-2 text-black ">Sofa & chairs</div>
+                        </div>
                     </div>
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="px-3">
-                        <img src="./content/image/item-1 (1).jpg" alt="#"  class="w-100">
-                        <div class="fw-bold text-center text_part mt-2 text-black ">Sofa & chairs</div>
-                    </div>
-                    </div>
-                    <div class="d-flex justify-content-center align-items-center">
-                        <div  class="px-3">
-                        <img src="./content/image/item-4.jpg" alt="#"  class="w-100">
-                        <div class="fw-bold text-center text_part mt-2 text-black ">Sound & Life</div>
-                    </div>
+                            <img src="./content/image/item-2.jpg" alt="#" class="w-100">
+                            <div class="fw-bold text-center text_part mt-2 text-black ">Furniture & Decor</div>
+                        </div>
                     </div>
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="px-3">
-                        <img src="./content/image/item-5.jpg" alt="#"  class="w-100">
-                        <div class="fw-bold text-center text_part mt-2 text-black ">Appliances</div>
-                    </div>
+                            <img src="./content/image/item-1 (1).jpg" alt="#" class="w-100">
+                            <div class="fw-bold text-center text_part mt-2 text-black ">Sofa & chairs</div>
+                        </div>
                     </div>
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="px-3">
-                        <img src="./content/image/item-2.jpg" alt="#"  class="w-100">
-                        <div class="fw-bold text-center text_part mt-2 text-black ">Furniture & Decor</div>
+                            <img src="./content/image/item-4.jpg" alt="#" class="w-100">
+                            <div class="fw-bold text-center text_part mt-2 text-black ">Sound & Life</div>
+                        </div>
                     </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="px-3">
+                            <img src="./content/image/item-5.jpg" alt="#" class="w-100">
+                            <div class="fw-bold text-center text_part mt-2 text-black ">Appliances</div>
+                        </div>
                     </div>
-                    
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="px-3">
+                            <img src="./content/image/item-2.jpg" alt="#" class="w-100">
+                            <div class="fw-bold text-center text_part mt-2 text-black ">Furniture & Decor</div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -2248,23 +2271,23 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4  mb-4 mb-lg-0  text-part text-white text-center  py-auto">
-                    <div class="py-3"> 
-                    <a class="header_text mb-5 pb-5 mt-5 pt-3">WINNER OF PRIMETIME</a>
-                    <div class="mt-4 mb-3 text-muted fw-bold text-linked ">
-                        Categories:
-                        <a href="#" class=""> News , Hot , Relax , Fashion</a>
+                    <div class="py-3">
+                        <a class="header_text mb-5 pb-5 mt-5 pt-3">WINNER OF PRIMETIME</a>
+                        <div class="mt-4 mb-3 text-muted fw-bold text-linked ">
+                            Categories:
+                            <a href="#" class=""> News , Hot , Relax , Fashion</a>
+                        </div>
+                        <div class="mb-3  text-midlle ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do perspciats<br>
+                            omnis iste natuseimod
+                            tempor incidunt ut labore et dolore magna aliqua.
+                            <br>
+                            Ut enim ad minim veniam, qunostrud ex...
+                        </div>
+                        <div>
+                            <a href="#" class="bottom_text"> READ MORE</a>
+                        </div>
                     </div>
-                    <div class="mb-3  text-midlle ">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do perspciats<br>
-                        omnis iste natuseimod
-                        tempor incidunt ut labore et dolore magna aliqua.
-                        <br>
-                        Ut enim ad minim veniam, qunostrud ex...
-                    </div>
-                    <div>
-                        <a href="#" class="bottom_text"> READ MORE</a>
-                    </div>
-                </div>
                 </div>
                 <div class="col-md-6 col-lg-4 p-0 mb-0 mb-md-4 mb-lg-0 position-relative">
                     <img src="./content/image/post-2.jpg" alt="" class="w-100">
@@ -2278,23 +2301,23 @@
 
                 </div>
                 <div class="col-md-6 col-lg-4  mb-4 mb-lg-0  text-part text-white text-center  py-auto">
-                    <div class="py-3"> 
-                    <a class="header_text mb-5 pb-5 mt-5 pt-3">WINNER OF PRIMETIME</a>
-                    <div class="mt-4 mb-3 text-muted fw-bold text-linked ">
-                        Categories:
-                        <a href="#" class=""> News , Hot , Relax , Fashion</a>
+                    <div class="py-3">
+                        <a class="header_text mb-5 pb-5 mt-5 pt-3">WINNER OF PRIMETIME</a>
+                        <div class="mt-4 mb-3 text-muted fw-bold text-linked ">
+                            Categories:
+                            <a href="#" class=""> News , Hot , Relax , Fashion</a>
+                        </div>
+                        <div class="mb-3  text-midlle ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do perspciats<br>
+                            omnis iste natuseimod
+                            tempor incidunt ut labore et dolore magna aliqua.
+                            <br>
+                            Ut enim ad minim veniam, qunostrud ex...
+                        </div>
+                        <div>
+                            <a href="#" class="bottom_text"> READ MORE</a>
+                        </div>
                     </div>
-                    <div class="mb-3  text-midlle ">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do perspciats<br>
-                        omnis iste natuseimod
-                        tempor incidunt ut labore et dolore magna aliqua.
-                        <br>
-                        Ut enim ad minim veniam, qunostrud ex...
-                    </div>
-                    <div>
-                        <a href="#" class="bottom_text"> READ MORE</a>
-                    </div>
-                </div>
                 </div>
                 <div class="col-md-6 col-lg-4 p-0  mb-0 mb-md-4 mb-lg-0  position-relative">
                     <img src="./content/image/post-3.jpg" alt="" class="w-100">
@@ -2307,23 +2330,23 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4  mb-4 mb-lg-0  text-part text-white text-center  py-auto">
-                    <div class="py-3"> 
-                    <a class="header_text mb-5 pb-5 mt-5 pt-3">WINNER OF PRIMETIME</a>
-                    <div class="mt-4 mb-3 text-muted fw-bold text-linked ">
-                        Categories:
-                        <a href="#" class=""> News , Hot , Relax , Fashion</a>
+                    <div class="py-3">
+                        <a class="header_text mb-5 pb-5 mt-5 pt-3">WINNER OF PRIMETIME</a>
+                        <div class="mt-4 mb-3 text-muted fw-bold text-linked ">
+                            Categories:
+                            <a href="#" class=""> News , Hot , Relax , Fashion</a>
+                        </div>
+                        <div class="mb-3  text-midlle ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do perspciats<br>
+                            omnis iste natuseimod
+                            tempor incidunt ut labore et dolore magna aliqua.
+                            <br>
+                            Ut enim ad minim veniam, qunostrud ex...
+                        </div>
+                        <div>
+                            <a href="#" class="bottom_text"> READ MORE</a>
+                        </div>
                     </div>
-                    <div class="mb-3  text-midlle ">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do perspciats<br>
-                        omnis iste natuseimod
-                        tempor incidunt ut labore et dolore magna aliqua.
-                        <br>
-                        Ut enim ad minim veniam, qunostrud ex...
-                    </div>
-                    <div>
-                        <a href="#" class="bottom_text"> READ MORE</a>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>

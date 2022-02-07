@@ -73,26 +73,197 @@
   header .header-part2 .shop-icon {
     font-size: 1.5rem;
   }
-  header .header-part3 .nav-link {
-    color: black !important;
-    font-size: 17.5px;
+  /* Code from https://codepen.io/sergey_ioffe/pen/VqLJqa */
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  .top-item {
+    margin-top: 100px;
+  }
+  header {
+    margin: 0;
+    width: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px #ddd;
+            box-shadow: 0px 0px 5px 0px #ddd;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 20;
+  }
+  nav {
+    height: 100%;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 320px;
+    margin-top: 90px;
+    -webkit-transform: translateX(-320px);
+            transform: translateX(-320px);
+    -webkit-transition: -webkit-transform 260ms ease-in-out;
+    transition: -webkit-transform 260ms ease-in-out;
+    transition: transform 260ms ease-in-out;
+    transition: transform 260ms ease-in-out, -webkit-transform 260ms ease-in-out;
+    background-color: white;
+    border-left: 15px solid #212529;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #eee;
+  }
+  nav ul > li {
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
     font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    -webkit-transition: .25s;
+    transition: .25s;
   }
-  header .header-part3 .nav-link:hover {
-    color: #ed1c24 !important;
+  nav ul > li span {
+    display: block;
+    font-size: 14px;
+    color: #353535;
   }
-  header .header-part3 .nav-link:active {
-    color: red !important;
+  nav ul > li a {
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
   }
-  header .header-part3 a {
-    color: pink;
+  nav ul > li:hover {
+    background-color: #dddddd;
   }
+  nav li#nav-signup {
+    list-style: none;
+    background-color: #00B2D3;
+  }
+  nav ul > li#nav-signup span {
+    color: #00B2D3;
+  }
+  nav ul > li#nav-signup a {
+    color: #ffffff;
+  }
+  nav ul > li#nav-signup:hover {
+    background-color: #006375;
+  }
+  input[type="checkbox"]:checked ~ nav {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    z-index: 40;
+  }
+  input[type=checkbox] {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: none;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+  }
+  .menuIconToggle {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 40;
+    height: 100%;
+    width: 100%;
+    top: 17.5px;
+    left: 30px;
+    height: 22px;
+    width: 22px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .hamb-line {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #444;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+  }
+  .hor {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+  }
+  .dia.part-1 {
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+  }
+  .dia.part-2 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+  }
+  input[type=checkbox]:checked ~ .menuIconToggle > .hor {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    opacity: 0;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+  }
+  input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-1 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+    margin-top: 8px;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+  }
+  input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-2 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+    margin-top: -9px;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+  }
+}
+
+@media only screen and (max-width: 992px) and (max-width: 640px) {
+  nav {
+    height: 100%;
+    width: 80%;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
   a {
     text-decoration: none;
   }
   .slider_1 .slick-prev, .slider_1 .slick-next {
-    z-index: 3;
-    margin: 3rem !important;
+    z-index: 1;
+    margin: 0 3rem !important;
   }
   .slider_1 .slick-prev:before, .slider_1 .slick-next:before {
     color: gray;

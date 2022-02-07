@@ -1,65 +1,207 @@
 @import 'variables';
 
 header {
-    .header-part1 {
-        a {
-            color: white;
-            text-decoration: none;
-        }
+  .header-part1 {
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .header-part2 {
+    .search-box___form {
+      background-color: $light-shade-gray;
+      border: 0px;
+      border-radius: 0px;
     }
 
-    .header-part2 {
-        .search-box___form {
-            background-color: $light-shade-gray;
-            border: 0px;
-            border-radius: 0px;
-        }
-
-        .search-box___btn {
-            background-color: $light-balck;
-            border: 0px;
-            border-radius: 0px;
-
-        }
-
-        .search-box__icon {
-            color: white;
-            font-size: 19px;
-        }
-
-        a {
-            color: black;
-            &:hover{
-                color: $text-red !important;
-            }
-        }
-
-        .shop-icon {
-            font-size: 1.5rem;
-        }
+    .search-box___btn {
+      background-color: $light-balck;
+      border: 0px;
+      border-radius: 0px;
 
     }
 
-    .header-part3 {
-        .nav-link {
-            color: black !important;
-            font-size: 17.5px;
-            font-weight: bold;
-        }
-
-        .nav-link:hover {
-            color: $text-red !important;
-        }
-
-        .nav-link:active{
-            color: red !important;
-        }
-        
-        a{
-            color:pink;
-        }
-
-
+    .search-box__icon {
+      color: white;
+      font-size: 19px;
     }
+
+    a {
+      color: black;
+
+      &:hover {
+        color: $text-red !important;
+      }
+    }
+
+    .shop-icon {
+      font-size: 1.5rem;
+    }
+
+  }
+
+
+
+
+
 
 }
+
+
+
+
+// ham-menu
+/* Code from https://codepen.io/sergey_ioffe/pen/VqLJqa */
+html, body {
+  overflow-x: hidden
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif
+}
+.top-item {
+  margin-top: 100px;
+}
+header {
+  margin: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px #ddd;
+  position: sticky;
+  // height: 90px!important;
+  z-index: 20;
+}
+nav {
+  height: 100%;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 320px;
+  margin-top: 90px;
+  transform: translateX(-320px);
+  transition: transform 260ms ease-in-out;
+  background-color: white;
+  border-left: 15px solid #212529;
+
+}
+nav ul {
+  margin:0;
+  padding:0;
+  border-top: 1px solid #eee;
+}
+nav ul>li {
+  list-style: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: .25s
+}
+nav ul>li span {
+  display: block;
+  font-size: 14px;
+  color: #353535;
+}
+nav ul>li a {
+  color: #353535;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+nav ul>li:hover {
+  background-color: #dddddd;
+}
+nav li#nav-signup {
+  list-style: none;
+  background-color: #00B2D3;
+}
+nav ul>li#nav-signup span {
+  color: #00B2D3;
+}
+nav ul>li#nav-signup a {
+  color: #ffffff;
+}
+nav ul>li#nav-signup:hover {
+  background-color: #006375;
+}
+input[type="checkbox"]:checked ~ nav {
+  transform: translateX(0);
+  z-index: 40;
+}
+input[type=checkbox] {
+  box-sizing: border-box;
+  display: none;
+  transition: all 0.25s;
+}
+.menuIconToggle {
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  z-index: 40;
+  height: 100%;
+  width: 100%;
+  top: 17.5px;
+  left: 30px;
+  height: 22px;
+  width: 22px;
+  transition: all 0.3s;
+}
+.hamb-line {
+  box-sizing: border-box;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: #444;
+  transition: all 0.25s;
+}
+.hor {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+}
+.dia.part-1 {
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+  transition: all .25s;
+}
+.dia.part-2 {
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+  transition: all .25s;
+}
+input[type=checkbox]:checked ~ .menuIconToggle > .hor {
+  box-sizing: border-box;
+  opacity: 0;
+  transition: all .25s;
+}
+input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-1 {
+  box-sizing: border-box;
+  transform: rotate(135deg);
+  margin-top: 8px;
+  transition: all .25s;
+}
+input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-2 {
+  box-sizing: border-box;
+  transform: rotate(-135deg);
+  margin-top: -9px;
+  transition: all .25s;
+}
+@media screen and (max-width: 640px) {
+ nav {
+    height: 100%;
+    width: 80%;
+    transform: translateX(100%);
+    justify-content: center;
+  } 
+}
+
